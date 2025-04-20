@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Unicodeveloper\Paystack\Test;
+namespace Dotman\Paystack\Test;
 
 use Mockery as m;
 use GuzzleHttp\Client;
 use PHPUnit\Framework\TestCase;
-use Unicodeveloper\Paystack\Paystack;
+use Dotman\Paystack\Paystack;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Facade as Facade;
 
@@ -24,7 +24,7 @@ class PaystackTest extends TestCase
 
     public function setUp(): void
     {
-        $this->paystack = m::mock('Unicodeveloper\Paystack\Paystack');
+        $this->paystack = m::mock('Dotman\Paystack\Paystack');
         $this->mock = m::mock('GuzzleHttp\Client');
     }
 

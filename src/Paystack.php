@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Unicodeveloper\Paystack;
+namespace Dotman\Paystack;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Config;
-use Unicodeveloper\Paystack\Exceptions\IsNullException;
-use Unicodeveloper\Paystack\Exceptions\PaymentVerificationFailedException;
+use Dotman\Paystack\Exceptions\IsNullException;
+use Dotman\Paystack\Exceptions\PaymentVerificationFailedException;
 
 class Paystack
 {

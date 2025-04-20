@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/unicodeveloper/laravel-paystack).
+We accept contributions via Pull Requests on [Github](https://github.com/dotmarn/laravel-paystack).
 
 
 ## Pull Requests

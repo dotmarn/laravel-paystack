@@ -11,3 +11,5 @@ All Notable changes to `laravel-paystack` will be documented in this file
 - Support for more than one currency. Now you can use USD!
 - Support for multiple quantities
 - Support for helpers
+## 2025-04-20
+- Added support for Laravel 12

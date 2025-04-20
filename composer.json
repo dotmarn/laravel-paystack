@@ -1,5 +1,5 @@
 {
-    "name": "unicodeveloper/laravel-paystack",
+    "name": "dotmarn/laravel-paystack",
     "description": "A Laravel Package for Paystack",
     "keywords": [
         "php",
@@ -12,23 +12,24 @@
         "paystack.co",
         "laravel 6",
         "laravel 7",
-        "laravel 8"
+        "laravel 8",
+        "laravel 9",
+        "laravel 10",
+        "laravel 11",
+        "laravel 12"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "unicodeveloper",
-            "email": "prosperotemuyiwa@gmail.com"
-        },
-        {
-            "name": "iamfunsho",
-            "email": "info@devfunsho.com"
+            "name": "Ridwan Kasim",
+            "email": "kasimsheyi20@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.2|^8.0|^8.1",
-        "illuminate/support": "~6|~7|~8|~9|^10.0|^11.0",
+        "php": "^7.2|^8.0|^8.1|^8.2",
+        "illuminate/support": "~6|~7|~8|~9|^10.0|^11.0|^12.0",
         "guzzlehttp/guzzle": "~6|~7|~8|~9"
     },
     "require-dev": {
@@ -42,12 +43,12 @@
             "src/Support/helpers.php"
         ],
         "psr-4": {
-            "Unicodeveloper\\Paystack\\": "src/"
+            "Dotman\\Paystack\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Unicodeveloper\\Paystack\\Test\\": "tests"
+            "Dotman\\Paystack\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +57,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Unicodeveloper\\Paystack\\PaystackServiceProvider"
+                "Dotman\\Paystack\\PaystackServiceProvider"
             ],
             "aliases": {
-                "Paystack": "Unicodeveloper\\Paystack\\Facades\\Paystack"
+                "Paystack": "Dotman\\Paystack\\Facades\\Paystack"
             }
         }
     }
