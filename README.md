@@ -1,10 +1,12 @@
 # laravel-paystack
 
-[![Latest Stable Version](https://poser.pugx.org/dotmarn/laravel-paystack/v/stable.svg)](https://packagist.org/packages/dotmarn/laravel-paystack)
-[![License](https://poser.pugx.org/dotmarn/laravel-paystack/license.svg)](LICENSE.md)
+[![Latest Stable Version](http://poser.pugx.org/dotmarn/laravel-paystack/v)](https://packagist.org/packages/dotmarn/laravel-paystack)
+[![PHP Version Require](http://poser.pugx.org/dotmarn/laravel-paystack/require/php)](https://packagist.org/packages/dotmarn/laravel-paystack)
+[![License](http://poser.pugx.org/dotmarn/laravel-paystack/license)](https://packagist.org/packages/dotmarn/laravel-paystack)
 [![Build Status](https://img.shields.io/travis/dotmarn/laravel-paystack.svg)](https://travis-ci.org/dotmarn/laravel-paystack)
 [![Quality Score](https://img.shields.io/scrutinizer/g/dotmarn/laravel-paystack.svg?style=flat-square)](https://scrutinizer-ci.com/g/dotmarn/laravel-paystack)
-[![Total Downloads](https://img.shields.io/packagist/dt/dotmarn/laravel-paystack.svg?style=flat-square)](https://packagist.org/packages/dotmarn/laravel-paystack)
+[![Total Downloads](http://poser.pugx.org/dotmarn/laravel-paystack/downloads)](https://packagist.org/packages/dotmarn/laravel-paystack)
+[![CircleCI Build](http://poser.pugx.org/dotmarn/laravel-paystack/circleci)](https://packagist.org/packages/dotmarn/laravel-paystack)
 
 > A Laravel Package for working with Paystack seamlessly
 
