@@ -13,3 +13,6 @@ All Notable changes to `laravel-paystack` will be documented in this file
 - Support for helpers
 ## 2025-04-20
 - Added support for Laravel 12
+
+## 2026-05-08
+- Added support for Laravel 13
